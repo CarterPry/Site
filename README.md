@@ -1,2 +1,2 @@
 # Site
-Config files for personal site
+Config files for personal site - clpry.com
