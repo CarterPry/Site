@@ -48,7 +48,7 @@ body{overflow-x: hidden;}
 <br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After that part was done I had to actually put docker on the Linux system. You can find easy steps to do this if needed, like
 <a href="https://computingforgeeks.com/install-docker-and-docker-compose-on-linux-mint-19/"><font color="#707070">this site</font></a>
-for example. Next I had to use the docker pull command for the right package. The name of the package i pulled was called "oznu/guacamole". After the pull command was done executing, I began to start the guacamole session. To do this I would run a few lines of commands similar to this.
+for example. Next I had to use the docker pull command for the right package. The name of the package I pulled was called "oznu/guacamole". After the pull command was done executing, I began to start the guacamole session. To do this I would run a few lines of commands similar to this.
 <div style="background: #8FA8BA; border-radius:1%;font-size: 20px;padding: 15px; margin-top: 40px;margin-bottom: 40px;"><div style="text-align: center;"><font style="font-weight: bold;"face="courier">~$ <font color="blue">docker run   -p 80:8080   -v </path/to/config>:/config   oznu/guacamole</font></font></div></div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After the package was up and running, I could access it through just the hosting PC´s ip address. I would enter it into a web browser on another PC while on my network and see a login page.
 <div style="text-align: center;margin-top: 40px;margin-bottom: 40px;"><img src="pics/guaclogin.png" alt="guacLogin.PNG" width="605" height="415"></img></div>
